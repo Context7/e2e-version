@@ -2,7 +2,7 @@
 
 This file is generated for E2E parsing.
 
-**Document ID:** h38fq5baz0t-mn9lfz4w
+**Document ID:** 4f03v8z7kj-mndokkz5
 
 This document contains a variety of concise, self-contained code examples across multiple programming languages, demonstrating common patterns, data structures, I/O, and control flow to exercise parsing in a realistic yet compact way.
 
@@ -20,14 +20,14 @@ main = print $ map (^2) $ filter odd [1..10]
 ```
 
 
-## Elixir: Enum Pipeline
+## R: Vector Arithmetic
 
-Elixir pipeline that filters even numbers and inspects the result.
+Simple R vector example computing squares of a sequence.
 
-```elixir
-nums = 1..10 |> Enum.to_list()
-evens = Enum.filter(nums, fn n -> rem(n, 2) == 0 end)
-IO.inspect(evens)
+```r
+nums <- 1:5
+squares <- nums^2
+print(squares)
 ```
 
 
